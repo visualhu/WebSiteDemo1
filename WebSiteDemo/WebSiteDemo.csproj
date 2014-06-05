@@ -187,6 +187,7 @@
     <Content Include="Images\lightbox\prev.png" />
     <Content Include="Images\lightbox\start.png" />
     <Content Include="Images\lightbox\white.gif" />
+    <Content Include="note.txt" />
     <Content Include="Pager\Pager.aspx" />
     <Content Include="Scripts\ajax\css_Ajax.css" />
     <Content Include="Scripts\ajax\jquery-1.4.2.js" />
