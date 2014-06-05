@@ -193,6 +193,7 @@ namespace WebSiteDemo.Pager
             this.AspNetPager2.CurrentPageIndex = e.NewPageIndex;
             InitGridView1();
         }
+
         #endregion
     }
 }
