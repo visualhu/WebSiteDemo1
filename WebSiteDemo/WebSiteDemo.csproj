@@ -38,6 +38,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AspNetPager">
+      <HintPath>..\Lib\AspNetPager.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -184,6 +187,7 @@
     <Content Include="Images\lightbox\prev.png" />
     <Content Include="Images\lightbox\start.png" />
     <Content Include="Images\lightbox\white.gif" />
+    <Content Include="Pager\Pager.aspx" />
     <Content Include="Scripts\ajax\css_Ajax.css" />
     <Content Include="Scripts\ajax\jquery-1.4.2.js" />
     <Content Include="Scripts\ajax\jquery-1.4.2.min.js" />
@@ -323,6 +327,14 @@
     <Compile Include="Gallery\lightbox.aspx.designer.cs">
       <DependentUpon>lightbox.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pager\Pager.aspx.cs">
+      <DependentUpon>Pager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pager\Pager.aspx.designer.cs">
+      <DependentUpon>Pager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pager\Post.cs" />
     <Compile Include="Sections\Demo1.aspx.cs">
       <DependentUpon>Demo1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
